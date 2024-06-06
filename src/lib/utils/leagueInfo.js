@@ -7,13 +7,17 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>write bio here.</p>
-  <p>.</p>
-  <p>.</p>
-  <p>.</p>
-  <p>.</p>
-  <p>.</p>
-`;
+  <p>The Cascadian Dynastic League of Legends, born in 2024 out of the re-draft Cascadian League which was retired after 10 years of running. The league is our first venture for all managers into the world of Dynasty leagues. May your Fantasy Football Dynasty live long and prosper into a great Legend to be talked about for years.</p>
+  <p>10 teams take on the challenge to be crowned Superbowl Owl champions year after year, win now, build for the future or compete for honours.</p>
+  <p>The league can be split into various clans:.</p>
+  <p>The Old Firm: the original five teams from the very beginnings of the Cascadian League from 2014; Chris, Shawn, Eddie, James and Ryan.</p>
+  <p>vs.</p>
+  <p>The New Kids: the five teams to join the league since it's inception replacing managers since retired; Mike, Shaun, Kawai (all since 2017), Alec (2019, 2022) and Jess (2022).</p>
+  <p> <p>
+  <p>USA: the five managers born in the great lands that gave us this sport; Alec, Eddie, Jess, Ryan and Kawai.<p>
+  <p>vs.<p> 
+  <p>RotW: the five managers born in the Rest of the World; Chris, Shawn, James, Mike and Shaun.<p>
+  `;
 
 /*   STEP 3   */
 /*
@@ -26,18 +30,18 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
      {
-       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "1050869741079949312",  // the user's manager ID
        "name": "Chris",
        "location": "Seattle", // (optional)
-       "bio": "...",
+       "bio": "The most successful manager from the Cascadian League with four wins, including a three win streak from 2015-2017. Will that success carry over into the world of Dynasty?",
        "photo": "/managers/chris.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
-         name: "James", // Can be anything (usually your rival's name)
-         link: 5, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/james.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         name: "Mike", // Can be anything (usually your rival's name)
+         link: 3, // manager array number within this array, or null to link back to all managers page
+         image: "/managers/mike.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 4984, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -47,10 +51,10 @@ export const managers = [
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "managerID": "1051348511771533312",  // the user's manager ID
        "name": "Shaun",
        "location": "Sydney, AUS", // (optional)
-       "bio": "...",
+       "bio": "Mr Optimistic himself, the week may be over after the first 10 seconds of game 1, but Dynasty is all about the long term, can Shaun translate the shor term panic into long term success?",
        "photo": "/managers/shaun.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2017, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
