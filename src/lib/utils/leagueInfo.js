@@ -33,7 +33,7 @@ export const managers = [
        "roster": 1,
        "managerID": "1050869741079949312",  // the user's manager ID
        "name": "Chris",
-       "tookOver": 2024,
+       "tookOver": 2014,
        "location": "Seattle", // (optional)
        "bio": "Member of the Old Firm and RotW clans. Ranked 3rd in the Post Starter Draft Ranks and 5th in the most likely to win Year 1. The most successful manager from the Cascadian League with four wins, including a three-win streak from 2015-2017. The only manager to make a trade in every season since they were introduced. Will that success carry over into the world of Dynasty?",
        "photo": "/managers/chris.jpg", // square ratio recommended (no larger than 500x500)
@@ -56,7 +56,7 @@ export const managers = [
        "roster": 2,
        "managerID": "1051348511771533312",  // the user's manager ID
        "name": "Shaun",
-       "tookOver": 2024,
+       "tookOver": 2017,
        "location": "Sydney, AUS", // (optional)
        "bio": "Member of the New Kids and RotW clans. Ranked 6th in the Post Starter Draft Ranks and 7th in the most likely to win Year 1. If Shaun didn’t have bad luck, he’d have no luck at all, holding the record for the worst upset losses to upset wins ratio in the league. Mr Optimistic himself, the week may be over after the first 10 seconds of game 1, but Dynasty is all about the long term, can Shaun translate the short-term panic into long term success?",
        "photo": "/managers/shaun.jpg", // square ratio recommended (no larger than 500x500)
@@ -79,7 +79,7 @@ export const managers = [
        "roster": 3,
        "managerID": "1051452216072085504",  // the user's manager ID
        "name": "Mike",
-       "tookOver": 2024,
+       "tookOver": 2017,
        "location": "London, UK", // (optional)
        "bio": "Member of the New Kids and RotW clans. Ranked 4th in the Post Starter Draft Ranks and 1st in the most likely to win Year 1. The only other multi championship winning team from the Cascadian League era, tasting success in 2019 and 2021. Mike also held a 100% playoff record and boasted a league leading 65%-win record. Most likely to make a waiver move, averaging over 40 moves per season in the old redraft league, but will that philosophy translate to the world of Dynasty?",
        "photo": "/managers/mike.jpg", // square ratio recommended (no larger than 500x500)
@@ -102,10 +102,10 @@ export const managers = [
        "roster": 4,
        "managerID": "1053161203259797504",  // the user's manager ID
        "name": "Shawn",
-       "tookOver": 2024,
+       "tookOver": 2014,
        "location": "Seattle", // (optional)
        "bio": "Member of the Old Firm and RotW clans. Ranked 9th in the Post Starter Draft Ranks and 10th in the most likely to win Year 1. Shawn had held the longest playoff streak in a row, making the post season in every one of his first seven seasons. Unfortunately, victory was elusive, the Owl escaped him despite making the Championship game three years in a row 2017-2019, 2nd was the best he could do.",
-       "photo": "/managers/shaun.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": "/managers/shawn.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -125,7 +125,7 @@ export const managers = [
        "roster": 5,
        "managerID": "1053161904597782528",  // the user's manager ID
        "name": "James",
-       "tookOver": 2024,
+       "tookOver": 2014,
        "location": "Seattle", // (optional)
        "bio": "Member of the Old Firm and RotW clans. Ranked 1st in the Post Starter Draft Ranks and 4th in the most likely to win Year 1. The luck of the Irish is a thing in fantasy it seems as James held the record for most upset wins, almost twice as many as the league average. Despite not winning the Superb Owl, James has success in finishing 1st in the regular season in 2019.",
        "photo": "/managers/james.jpg", // square ratio recommended (no larger than 500x500)
@@ -148,7 +148,7 @@ export const managers = [
        "roster": 6,
        "managerID": "1053384367487229952",  // the user's manager ID
        "name": "Alec",
-       "tookOver": 2024,
+       "tookOver": 2019,
        "location": "Patagonia", // (optional)
        "bio": "Member of the New Kids and Team USA. Ranked 2nd in the Post Starter Draft Ranks and 6th in the most likely to win Year 1. The last to be crowned Superb Owl Champion of the Cascadian League. Alec first joined the league in 2019 and flopped to last place and the worst points total ever seen in the league. After a short hiatus rejoined in 2022 and was a force, making the Championship game in both 2022 and 2023.",
        "photo": "/managers/alec.jpg", // square ratio recommended (no larger than 500x500)
@@ -171,7 +171,7 @@ export const managers = [
        "roster": 7,
        "managerID": "1053560862558003200",  // the user's manager ID
        "name": "Ryan",
-       "tookOver": 2024,
+       "tookOver": 2014,
        "location": "Seattle", // (optional)
        "bio": "Member of the Old Firm and Team USA. Ranked 7th in the Post Starter Draft Ranks and 3rd in the most likely to win Year 1. Ryan previously held the joint longest playoff drought having never made the playoffs in his first six seasons and then won the Superb Owl at the first time of making the playoffs in 2020. Ryan holds the record for least amount of points conceded.",
        "photo": "/managers/ryan.jpg", // square ratio recommended (no larger than 500x500)
@@ -194,7 +194,7 @@ export const managers = [
        "roster": 8,
        "managerID": "1053846580492603392",  // the user's manager ID
        "name": "Jess",
-       "tookOver": 2024,
+       "tookOver": 2022,
        "location": "Patagonia", // (optional)
        "bio": "Member of the New Kids and Team USA. Ranked 5th in the Post Starter Draft Ranks and 2nd in the most likely to win Year 1. Jess is the newest member of the league, having only debuted in 2022, success has not come swiftly missing the playoffs in all seasons of the redraft league and losing all three editions of the Straski bowl. Dynasty is an opportunity to start fresh and build on solid foundations.",
        "photo": "/managers/jess.jpg", // square ratio recommended (no larger than 500x500)
@@ -217,7 +217,7 @@ export const managers = [
        "roster": 9,
        "managerID": "1058132531708620800",  // the user's manager ID
        "name": "Kawai",
-       "tookOver": 2024,
+       "tookOver": 2017,
        "location": "Seattle", // (optional)
        "bio": "Member of the New Kids and Team USA. Ranked 10th in the Post Starter Draft Ranks and 9th in the most likely to win Year 1. Having joined the redraft league in 2017, it was a slow burner for Kawai, failing to make the playoffs until his 7th and final season in the redraft eventually finishing up 3rd. 8th was the best he could muster before that. Kawai held the record for lowest points average and joint longest playoff drought.",
        "photo": "/managers/kawai.jpg", // square ratio recommended (no larger than 500x500)
@@ -240,7 +240,7 @@ export const managers = [
        "roster": 10,
        "managerID": "1059009478881939456",  // the user's manager ID
        "name": "Eddie",
-       "tookOver": 2024,
+       "tookOver": 2014,
        "location": "Seattle", // (optional)
        "bio": "Member of the Old Firm and Team USA. Ranked 8th in the Post Starter Draft Ranks and 8th in the most likely to win Year 1. Eddie has tasted success and sorrow, finishing both 1st and last and everything in between. Eddie held the record for the most average finisher in the Cascadian redraft league, finishing an average of 5th, with a 50% win record and average points for and against. Eddie does hold the record for most points scored in Championship week, unfortunately, he was not in the Superb Owl that year.",
        "photo": "/managers/eddie.jpg", // square ratio recommended (no larger than 500x500)
