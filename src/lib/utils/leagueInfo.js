@@ -13,8 +13,8 @@ export const homepageText = `
   <p>The Old Firm: the original five teams from the very beginnings of the Cascadian League from 2014; Chris, Shawn, Eddie, James and Ryan.</p>
   <p>The New Kids: the five teams to join the league since it's inception replacing managers since retired; Mike, Shaun, Kawai (all since 2017), Alec (2019, 2022) and Jess (2022).</p>
   <p>or<p>
-  <p>USA: the five managers born in the great lands that gave us this sport; Alec, Eddie, Jess, Ryan and Kawai.<p>
-  <p>RotW: the five managers born in the Rest of the World; Chris, Shawn, James, Mike and Shaun.<p>
+  <p>USA: the five managers raised in the great lands that gave us this sport; Alec, Eddie, Jess, Ryan and Kawai.<p>
+  <p>RotW: the five managers from the Rest of the World; Chris, Shawn, James, Mike and Shaun.<p>
   <p>There was much success and as much sorrow to be had from the old Cascadian League. Five managers had won the Superb Owl in previous seasons, Chris, Eddie, Mike, Ryan and Alec. Chris was the most successful manager from the re-draft days, claiming four titles and a league best average points score of 106% of the league average. Mike claimed a 100% playoff track record. While Jess, although being the freshest member of the group, was the only manager to never make the playoffs. Kawai had the league worst 93% points scored compared to average and a league worst average finish position of 8th. Six managers had sunk to the bottom of the pile over the years gone by, Kawai, Ryan, Alec, Shaun, James and Shawn all finishing last at one point or another.<p>
   <p>The Cascadian Dynastic League of Legends will rewrite the history books. What went before no longer matters. Let your dynasty building commence!<p>
   `;
