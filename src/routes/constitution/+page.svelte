@@ -137,7 +137,7 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Section 8: Rookie Draft</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(eightOne)}>8.1 Draft Type</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightTwo)}>8.2 Pick Roder</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightTwo)}>8.2 Pick Order</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(eightThree)}>8.3 Draft Schedule</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(eightFour)}>8.4 Pick Clock</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(eightFive)}>8.5 Draft Pause</h4>
