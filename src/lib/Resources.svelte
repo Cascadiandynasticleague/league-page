@@ -27,14 +27,6 @@ import { dynasty } from './utils/helper';
             dynastyOnly: true,
         },
         {
-            name: "DynastyProcess Trade Calculator",
-            url: "https://apps.dynastyprocess.com/calculator/",
-            icon: "calculate",
-            premium: false,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
             name: "Dynasty League Football",
             url: "https://dynastyleaguefootball.com/",
             icon: "insights",
