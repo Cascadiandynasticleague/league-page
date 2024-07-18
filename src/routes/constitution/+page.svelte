@@ -278,7 +278,7 @@
 
     <h2 class="sectionHeading" bind:this={nine}>Section 9 Waivers</h2>
 
-    <p>Waivers will start immediately following the Starter Draft and will run continuously throughout the entire year.</p>
+    <p>Waivers will start immediately following the Draft and will run continuously throughout the entire year until the start of the next seasons' draft.</p>
     <p>Waivers will be processed based on current league standing, i.e. last place will receive first priority. Waiver priority will reset with the beginning of each game week. Except during the offseason where priority will be rolling until the completion of week 1 of the season.</p>
     <p>Waivers will process once per week during the offseason, 9am PST on Saturday, and twice per week at the commencement of week 1 of the regular season, 9am PST on Wednesday and 9am PST on Saturday.</p>
     <p>All dropped players and unselected players will remain locked until the next Waivers processing window. No free agents may be picked up at any time.</p>
