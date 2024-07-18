@@ -190,7 +190,7 @@
 
     <p>The playoffs run from week 15 through 17 of the NFL regular season.</p>
     <p>The playoffs will be made up of the top 6 Franchises, 1st and 2nd placed Franchises will receive a bye in week 15.</p>
-    <p>Playoffs will not be re-seeded between rounds.</p>
+    <p>Playoffs will not be re-seeded between rounds. Franchises will be seeded based on the final league standings.</p>
     <p>A consolation bracket will be held for all non-qualifying teams but will not impact standing order for the following season’s rookie draft.</p>
 
     <h2 class="sectionHeading" bind:this={six}>Section 6 Team Rosters</h2>
@@ -260,7 +260,7 @@
     <p>The Rookie draft will be a Linear Draft consisting of four rounds.</p>
   
     <h3 bind:this={eightTwo}>8.2 Pick Order</h3>
-    <p>The Rookie Draft Pick order will be the reverse of the previous season’s playoff order for picks 6 through 10. Picks 1 through 4 will be made of the four teams that did not make the previous season’s playoffs and will be assigned in reverse order of their theoretical maximum points for (max. PF) from the previous season.</p>
+    <p>The Rookie Draft Pick order will be the reverse of the previous season’s playoff order for picks 5 through 10. Picks 1 through 4 will be made of the four teams that did not make the previous season’s playoffs and will be assigned in reverse order of their theoretical maximum points for (max. PF) from the previous season.</p>
     <p>For Season 1, the Rookie Draft Pick Order will be the reverse of the final standings from the 2023 season of the re-draft Cascadian League.</p>
 
     <h3 bind:this={eightThree}>8.3 Draft Schedule</h3>
