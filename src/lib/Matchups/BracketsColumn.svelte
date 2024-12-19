@@ -11,9 +11,9 @@
             switch (playoffLength - ix) {
                 case 1:
                     if(losers) {
-                        label = 'Toilet Bowl'
+                        label = 'Average Owl'
                     } else {
-                        label = 'Championship Match'
+                        label = 'Superb Owl'
                     }
                     break;
                 case 2:
@@ -33,9 +33,9 @@
             // If it's not a consolation match the only single matchup is the final
             if(!consolation) {
                 if(losers) {
-                    label = 'Toilet Bowl'
+                    label = 'Average Owl'
                 } else {
-                    label = 'Championship Match'
+                    label = 'Superb Owl'
                 }
                 return;
             }
