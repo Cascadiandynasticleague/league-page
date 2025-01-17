@@ -5,7 +5,7 @@
     let three;
     let four;
     let five;
-    let six, sixOne, sixTwo, sixThree, sixFour, sixFive;
+    let six, sixOne, sixTwo, sixThree, sixFour, sixFive, sixSix;
     let seven, sevenOne, sevenTwo, sevenThree, sevenFour;
     let eight, eightOne, eightTwo, eightThree, eightFour, eightFive, eightSix;
     let nine;
@@ -122,10 +122,11 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Team Rosters</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Starters</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Bench</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Injured Reserve Slot</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixFour)}>6.4 Taxi Team</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixFive)}>6.5 Taxi Team Player Eligibility</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Auto Subs</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Bench</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixFour)}>6.4 Injured Reserve Slot</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixFive)}>6.5 Taxi Team</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixSix)}>6.6 Taxi Team Player Eligibility</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Scoring</h3>
     
@@ -184,8 +185,7 @@
     <p>The regular season will be made up of 14 playing weeks, starting Week 1 and ending with the conclusion of Week 14.</p>
     <p>Each team will play each other a minimum of once.</p>
     <p>Where multiple head to heads are required based on league size the duplicate fixtures will be scheduled based on a strength of schedule in reverse of the league power rankings. i.e. 1st v 2nd and 9th v 10th will play each other more frequently than 1st v 10th and 2nd v 9th etc.</p>
-    <p>Season 1 schedule will be assigned based on Starter Draft Rank.</p>
-    
+        
     <h2 class="sectionHeading" bind:this={five}>Section 5 Playoffs</h2>
 
     <p>The playoffs run from week 15 through 17 of the NFL regular season.</p>
@@ -210,16 +210,21 @@
         <li>S.FLEX (QB/RB/WR/TE)</li>
     </ul>
   
-    <h3 bind:this={sixTwo}>6.2 Bench</h3>
+    <h3 bind:this={sixTwo}>6.2 Auto Subs</h3>
+    <p>Updated for season 2025</p>
+    <p>Each Franchise shall have the option to nominate up to three auto subs per game week.</p>
+    <p>If a starter is inactive for their game, a franchise may designate a substitute to be automatically placed in the starting lineup in their place. The Auto Sub may not play before the starter and the sub's position must be eligible for the starter's roster position. Each sub may only be matched to a maximum of one starter.</p>
+
+    <h3 bind:this={sixTwo}>6.3 Bench</h3>
     <p>Each Franchise shall have a bench in addition to their weekly starters, bench size will be 15, for a total of 25 players per Franchise.</p>
     
-    <h3 bind:this={sixThree}>6.3 Injured Reserve Slot</h3>
+    <h3 bind:this={sixThree}>6.4 Injured Reserve Slot</h3>
     <p>Each Franchise shall have up to 3 IR slots for eligible players. Eligible players shall be on the NFL IR list, NA or Holdouts. Out or Doubtful players are not eligible.</p>
 
-    <h3 bind:this={sixFour}>6.4 Taxi Team</h3>
+    <h3 bind:this={sixFour}>6.5 Taxi Team</h3>
     <p>Beginning in Season 2, prior to the start of the Rookie Draft, each Franchise will receive four taxi slots</p>
 
-    <h3 bind:this={sixFive}>6.5 Taxi Team Player Eligibility</h3>
+    <h3 bind:this={sixFive}>6.6 Taxi Team Player Eligibility</h3>
     <p>To be added to and remain on a Franchise’s Taxi Team a player must accrue no more than 2 seasons NFL experience.</p>
     <p>A player may not be demoted to the Taxi Team after the start of the regular season and once promoted can no longer be demoted back to the Taxi Team.</p>
     <p>If a Taxi player is traded to a new Franchise, the eligibility rules will be reset for the time of the trade, i.e., if a current Taxi player is traded to a new Franchise but has NFL experience of less than 2 seasons when the trade completed, they will be eligible to be added to the new Franchise’s Taxi team.</p>
@@ -260,9 +265,9 @@
     <p>The Rookie draft will be a Linear Draft consisting of four rounds.</p>
   
     <h3 bind:this={eightTwo}>8.2 Pick Order</h3>
-    <p>The Rookie Draft Pick order will be the reverse of the previous season’s playoff order for picks 5 through 10. Picks 1 through 4 will be made of the four teams that did not make the previous season’s playoffs and will be assigned in reverse order of their theoretical maximum points for (max. PF) from the previous season.</p>
-    <p>For Season 1, the Rookie Draft Pick Order will be the reverse of the final standings from the 2023 season of the re-draft Cascadian League.</p>
-
+    <p>Updated for season 2025</p>
+    <p>The Rookie Draft Pick order will be determined as follows: Picks 1 through 4 will be made of the four teams that did not make the previous season’s playoffs and will be assigned in reverse order of their theoretical maximum points for (max. PF) from the previous season. Pick 5 and 6 will be assigned to the 5th 6th playoff teams in reverse order of their regular season standings. Pick 7 and 8 will be assigned to the 3rd 4th place playoff teams in reverse order of their regular season standings. Pick 10 will be assigned to the winner of the Superb Owl with the runner up getting pick 9.</p>
+    
     <h3 bind:this={eightThree}>8.3 Draft Schedule</h3>
     <p>The Rookie Draft will commence seven weeks prior to the Saturday before the kick-off of the NFL season’s game 1 of week 1 of the regular season.</p>
 
@@ -278,7 +283,8 @@
 
     <h2 class="sectionHeading" bind:this={nine}>Section 9 Waivers</h2>
 
-    <p>Waivers will start immediately following the Draft and will run continuously throughout the entire year until the start of the next seasons' draft.</p>
+    <p>Updated for season 2025</p>
+    <p>Waivers will start immediately following the renewal of the season and will run continuously throughout the entire year until the end of the regular season. Waivers will be paused during the rookie draft.</p>
     <p>Waivers will be processed based on current league standing, i.e. last place will receive first priority. Waiver priority will reset with the beginning of each game week. Except during the offseason where priority will be rolling until the completion of week 1 of the season.</p>
     <p>Waivers will process once per week during the offseason, 9am PST on Saturday, and twice per week at the commencement of week 1 of the regular season, 9am PST on Wednesday and 9am PST on Saturday.</p>
     <p>All dropped players and unselected players will remain locked until the next Waivers processing window. No free agents may be picked up at any time.</p>
@@ -296,14 +302,17 @@
 
     <h2 class="sectionHeading" bind:this={eleven}>Section 11 League Renewal</h2>
 
+    <p>Updated for season 2025</p>
     <p>The league will automatically renew 24 hours after completion of that season’s NFL Super Bowl.</p>
     <p>The period between the completion of the Superb Owl and the Super Bowl will allow managers to propose any rule changes and amendments for the coming season.</p>
-    <p>All Rule proposals shall be voted on via Facebook Poll with majority 2/3rds approval required unless it is with regards to League Dues or manager changes which require unanimous approval.</p>
+    <p>All Rule proposals shall be voted on via Facebook Poll with a simple majority required to pass unless it is with regards to League Dues or manager changes which require unanimous approval.</p>
+    <p>The Commissioner may cast a deciding vote to break any ties in poll voting</p>
 
     <h2 class="sectionHeading" bind:this={twelve}>Section 12 General</h2>
 
+    <p>Updated for season 2025</p>
     <p>Rules are not open to interpretation. Any clarification must be confirmed by the commissioner.</p>
-    <p>Any amendments required to any rules shall be voted on by all Franchises, all votes will pass with 2/3rds majority approval unless otherwise stated.</p>
+    <p>Any amendments required to any rules during the season shall be voted on by all Franchises, amendments will pass with a simple majority unless otherwise stated.</p>
     <p>A vote of confidence in the commissioner may be had at any time with a simple majority required to continue.</p>
         
 </div>
