@@ -215,16 +215,16 @@
     <p>Each Franchise shall have the option to nominate up to three auto subs per game week.</p>
     <p>If a starter is inactive for their game, a franchise may designate a substitute to be automatically placed in the starting lineup in their place. The Auto Sub may not play before the starter and the sub's position must be eligible for the starter's roster position. Each sub may only be matched to a maximum of one starter.</p>
 
-    <h3 bind:this={sixTwo}>6.3 Bench</h3>
+    <h3 bind:this={sixThree}>6.3 Bench</h3>
     <p>Each Franchise shall have a bench in addition to their weekly starters, bench size will be 15, for a total of 25 players per Franchise.</p>
     
-    <h3 bind:this={sixThree}>6.4 Injured Reserve Slot</h3>
+    <h3 bind:this={sixFour}>6.4 Injured Reserve Slot</h3>
     <p>Each Franchise shall have up to 3 IR slots for eligible players. Eligible players shall be on the NFL IR list, NA or Holdouts. Out or Doubtful players are not eligible.</p>
 
-    <h3 bind:this={sixFour}>6.5 Taxi Team</h3>
+    <h3 bind:this={sixFive}>6.5 Taxi Team</h3>
     <p>Beginning in Season 2, prior to the start of the Rookie Draft, each Franchise will receive four taxi slots</p>
 
-    <h3 bind:this={sixFive}>6.6 Taxi Team Player Eligibility</h3>
+    <h3 bind:this={sixSix}>6.6 Taxi Team Player Eligibility</h3>
     <p>To be added to and remain on a Franchise’s Taxi Team a player must accrue no more than 2 seasons NFL experience.</p>
     <p>A player may not be demoted to the Taxi Team after the start of the regular season and once promoted can no longer be demoted back to the Taxi Team.</p>
     <p>If a Taxi player is traded to a new Franchise, the eligibility rules will be reset for the time of the trade, i.e., if a current Taxi player is traded to a new Franchise but has NFL experience of less than 2 seasons when the trade completed, they will be eligible to be added to the new Franchise’s Taxi team.</p>
