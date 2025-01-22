@@ -216,13 +216,16 @@
     <p>If a starter is inactive for their game, a franchise may designate a substitute to be automatically placed in the starting lineup in their place. The Auto Sub may not play before the starter and the sub's position must be eligible for the starter's roster position. Each sub may only be matched to a maximum of one starter.</p>
 
     <h3 bind:this={sixThree}>6.3 Bench</h3>
-    <p>Each Franchise shall have a bench in addition to their weekly starters, bench size will be 15, for a total of 25 players per Franchise.</p>
+    <p>Each Franchise shall have a bench in addition to their weekly starters, bench size will be 15, for a total of 25 players per Franchise. Except during the off-season, see Section 6.4 Injured Reserve Slot</p>
     
     <h3 bind:this={sixFour}>6.4 Injured Reserve Slot</h3>
+    <p>Updated for season 2025.</p>
     <p>Each Franchise shall have up to 3 IR slots for eligible players. Eligible players shall be on the NFL IR list, NA or Holdouts. Out or Doubtful players are not eligible.</p>
+    <p>During the Off-Season, between the NFL Super Bowl and the beginning of the next regular season, the roster bench will increase by 3 from 15 to 18 spots in order to allow teams to move their IR players to the regular roster.</p>
+    <p>Roster Cut deadline day, where the roster bench spots will be restored to the regular 15 spots, will occur the same day and time as the NFL 53-man roster deadline.</p>
 
     <h3 bind:this={sixFive}>6.5 Taxi Team</h3>
-    <p>Beginning in Season 2, prior to the start of the Rookie Draft, each Franchise will receive four taxi slots</p>
+    <p>Beginning in Season 2025, prior to the start of the Rookie Draft, each Franchise will receive four taxi slots</p>
 
     <h3 bind:this={sixSix}>6.6 Taxi Team Player Eligibility</h3>
     <p>To be added to and remain on a Franchise’s Taxi Team a player must accrue no more than 2 seasons NFL experience.</p>
@@ -284,14 +287,14 @@
     <h2 class="sectionHeading" bind:this={nine}>Section 9 Waivers</h2>
 
     <p>Updated for season 2025</p>
-    <p>Waivers will start immediately following the renewal of the season and will run continuously throughout the entire year until the end of the regular season. Waivers will be paused during the rookie draft.</p>
+    <p>Waivers will start immediately following the renewal of the season and will run continuously throughout the entire year until the end of the regular season, except where waivers will be paused for the duration of the rookie draft.</p>
     <p>Waivers will be processed based on current league standing, i.e. last place will receive first priority. Waiver priority will reset with the beginning of each game week. Except during the offseason where priority will be rolling until the completion of week 1 of the season.</p>
     <p>Waivers will process once per week during the offseason, 9am PST on Saturday, and twice per week at the commencement of week 1 of the regular season, 9am PST on Wednesday and 9am PST on Saturday.</p>
     <p>All dropped players and unselected players will remain locked until the next Waivers processing window. No free agents may be picked up at any time.</p>
 
     <h2 class="sectionHeading" bind:this={ten}>Section 10 Trades</h2>
 
-    <p>Trades will be allowed following the completion of the Starter Draft or 24 hours after completion of the Superb Owl and will run continuously throughout the year until the Saturday before the start of the final week of the regular season.</p>
+    <p>Trades will be allowed following the league renewal and will run continuously throughout the year until week 13 of the regular season.</p>
     <p>Trades may consist of any combination of player/players, rookie draft picks up to three years in advance.</p>
     <p>Trades may involve any number of Franchises.</p>
     <p>All trades must comply with the current league roster restrictions upon completion.</p>
@@ -304,7 +307,7 @@
 
     <p>Updated for season 2025</p>
     <p>The league will automatically renew 24 hours after completion of that season’s NFL Super Bowl.</p>
-    <p>The period between the completion of the Superb Owl and the Super Bowl will allow managers to propose any rule changes and amendments for the coming season.</p>
+    <p>The period between the completion of the Superb Owl and the NFL Super Bowl will allow managers to propose any rule changes and amendments for the coming season.</p>
     <p>All Rule proposals shall be voted on via Facebook Poll with a simple majority required to pass unless it is with regards to League Dues or manager changes which require unanimous approval.</p>
     <p>The Commissioner may cast a deciding vote to break any ties in poll voting</p>
 
