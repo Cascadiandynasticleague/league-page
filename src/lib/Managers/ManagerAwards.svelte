@@ -206,7 +206,7 @@
             case 'Third':
                 return award + ' Place'
             case 'Toilet':
-                return award + ' Bowl'
+                return 'Average Owl'
             default:
                 return award;
         }
