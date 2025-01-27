@@ -308,7 +308,7 @@
     <p>Updated for season 2025</p>
     <p>The league will automatically renew 24 hours after completion of that season’s NFL Super Bowl.</p>
     <p>The period between the completion of the Superb Owl and the NFL Super Bowl will allow managers to propose any rule changes and amendments for the coming season.</p>
-    <p>All Rule proposals shall be voted on via Facebook Poll with a simple majority required to pass unless it is with regards to League Dues or manager changes which require unanimous approval.</p>
+    <p>All Rule proposals shall be voted on via poll with a simple majority required to pass unless it is with regards to League Dues or manager changes which require unanimous approval.</p>
     <p>The Commissioner may cast a deciding vote to break any ties in poll voting</p>
 
     <h2 class="sectionHeading" bind:this={twelve}>Section 12 General</h2>
