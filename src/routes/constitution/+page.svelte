@@ -105,52 +105,52 @@
     
     <h2 class="noUnderscore">Table of Contents</h2>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: General League Setup</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Section 1: General League Setup</h3>
 
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 League Affiliation</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 League Hosting</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Franchises</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>1.1 League Affiliation</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneTwo)}>1.2 League Hosting</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneThree)}>1.3 Franchises</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Entry Fee</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Entry Fee</h3>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Seasonal Pay-out</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Seasonal Pay-out</h3>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: League Schedule</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: League Schedule</h3>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Playoffs</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Playoffs</h3>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Team Rosters</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Team Rosters</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Starters</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Auto Subs</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Bench</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixFour)}>6.4 Injured Reserve Slot</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixFive)}>6.5 Taxi Team</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixSix)}>6.6 Taxi Team Player Eligibility</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Starters</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>6.2 Auto Subs</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>6.3 Bench</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixFour)}>6.4 Injured Reserve Slot</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixFive)}>6.5 Taxi Team</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixSix)}>6.6 Taxi Team Player Eligibility</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Scoring</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: Scoring</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 Passing</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>7.2 Rushing</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenThree)}>7.3 Receiving</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenFour)}>7.4 Bonus</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 Passing</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenTwo)}>7.2 Rushing</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenThree)}>7.3 Receiving</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenFour)}>7.4 Bonus</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Section 8: Rookie Draft</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(eight)}>Section 8: Rookie Draft</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightOne)}>8.1 Draft Type</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightTwo)}>8.2 Pick Order</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightThree)}>8.3 Draft Schedule</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightFour)}>8.4 Pick Clock</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightFive)}>8.5 Draft Pause</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightSix)}>8.6 Draft Pick Trades</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightOne)}>8.1 Draft Type</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightTwo)}>8.2 Pick Order</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightThree)}>8.3 Draft Schedule</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightFour)}>8.4 Pick Clock</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightFive)}>8.5 Draft Pause</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightSix)}>8.6 Draft Pick Trades</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(nine)}>Section 9: Waivers</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(nine)}>Section 9: Waivers</h3>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(ten)}>Section 10: Trades</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(ten)}>Section 10: Trades</h3>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(eleven)}>Section 11: League Renewal</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(eleven)}>Section 11: League Renewal</h3>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(twelve)}>Section 12: General</h3>    
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(twelve)}>Section 12: General</h3>    
     
     <hr />
     
