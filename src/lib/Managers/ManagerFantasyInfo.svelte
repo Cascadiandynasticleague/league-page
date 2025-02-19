@@ -187,10 +187,24 @@
     {#if viewManager.valuePosition}
         <div class="infoSlot">
             <div class="infoLabel">
-                Favorite Fantasy Asset
+                Best Fantasy Assets
             </div>
             <div class="infoIcon {viewManager.valuePosition}">
                 <span class="valuePosition">{viewManager.valuePosition}</span>
+            </div>
+        </div>
+    {/if}
+    <!-- Favorite player (optioonal) -->
+    {#if viewManager.favoritePlayer}
+        <div class="infoSlot">
+            <div class="infoLabel">
+                Best Player
+            </div>
+            <div class="infoIcon playerIcon">
+                <img class="favoritePlayer" src="https://sleepercdn.com/content/nfl/players/{viewManager.favoritePlayer}.jpg" alt="favorite player"/>
+            </div>
+            <div class="infoAnswer">
+                {players[viewManager.favoritePlayer].fn} {players[viewManager.favoritePlayer].ln}
             </div>
         </div>
     {/if}
@@ -205,20 +219,6 @@
             </div>
             <div class="infoAnswer">
                 {viewManager.tradingScale} out of 10
-            </div>
-        </div>
-    {/if}
-    <!-- Favorite player (optioonal) -->
-    {#if viewManager.favoritePlayer}
-        <div class="infoSlot">
-            <div class="infoLabel">
-                Favorite Player
-            </div>
-            <div class="infoIcon playerIcon">
-                <img class="favoritePlayer" src="https://sleepercdn.com/content/nfl/players/{viewManager.favoritePlayer}.jpg" alt="favorite player"/>
-            </div>
-            <div class="infoAnswer">
-                {players[viewManager.favoritePlayer].fn} {players[viewManager.favoritePlayer].ln}
             </div>
         </div>
     {/if}
