@@ -45,8 +45,8 @@ export const managers = [
          link: 3, // manager array number within this array, or null to link back to all managers page
          image: "/managers/mike.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 745, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "favoritePlayer": 4984, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "REC_FLEX", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Trade Whisperer",
        "tradingScale": 10, // 1 - 10
@@ -68,7 +68,7 @@ export const managers = [
          link: 3, // manager array number within this array, or null to link back to all managers page
          image: "/managers/mike.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 7547, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 9221, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Don't Panic",
@@ -91,8 +91,8 @@ export const managers = [
          link: 1, // manager array number within this array, or null to link back to all managers page
          image: "/managers/chris.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 1233, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "favoritePlayer": 4881, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Just keep winning",
        "tradingScale": 7, // 1 - 10
@@ -114,7 +114,7 @@ export const managers = [
          link: null, // manager array number within this array, or null to link back to all managers page
          image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 871, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 4866, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Auto drafting will be fine…",
@@ -137,8 +137,8 @@ export const managers = [
          link: null, // manager array number within this array, or null to link back to all managers page
          image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 745, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "favoritePlayer": 3198, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "When do we get to see these touchdowns people keep talking about?",
        "tradingScale": 3, // 1 - 10
@@ -149,7 +149,7 @@ export const managers = [
        "managerID": "1053384367487229952",  // the user's manager ID
        "name": "Alec",
        "tookOver": 2019,
-       "location": "Patagonia", // (optional)
+       "location": "Spokane", // (optional)
        "bio": "Member of the New Kids and Team USA. Ranked 2nd in the Post Starter Draft Ranks and 6th in the most likely to win Year 1. The last to be crowned Superb Owl Champion of the Cascadian League. Alec first joined the league in 2019 and flopped to last place and the worst points total ever seen in the league. After a short hiatus rejoined in 2022 and was a force, making the Championship game in both 2022 and 2023.",
        "photo": "/managers/alec.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2019, // (optional) when did the manager start playing fantasy football
@@ -160,8 +160,8 @@ export const managers = [
          link: 8, // manager array number within this array, or null to link back to all managers page
          image: "/managers/jess.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 2309, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "favoritePlayer": 4892, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Where’s my spreadsheet?",
        "tradingScale": 1, // 1 - 10
@@ -183,8 +183,8 @@ export const managers = [
          link: null, // manager array number within this array, or null to link back to all managers page
          image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 4046, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "favoritePlayer": 7569, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Defence is the best form of attack",
        "tradingScale": 2, // 1 - 10
@@ -195,7 +195,7 @@ export const managers = [
        "managerID": "1053846580492603392",  // the user's manager ID
        "name": "Jess",
        "tookOver": 2022,
-       "location": "Patagonia", // (optional)
+       "location": "Spokane", // (optional)
        "bio": "Member of the New Kids and Team USA. Ranked 5th in the Post Starter Draft Ranks and 2nd in the most likely to win Year 1. Jess is the newest member of the league, having only debuted in 2022, success has not come swiftly missing the playoffs in all seasons of the redraft league and losing all three editions of the Straski bowl. Dynasty is an opportunity to start fresh and build on solid foundations.",
        "photo": "/managers/jess.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
@@ -206,8 +206,8 @@ export const managers = [
          link: 6, // manager array number within this array, or null to link back to all managers page
          image: "/managers/alec.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 4988, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "favoritePlayer": 6794, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "SUPER_FLEX", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Did you play for The Ohio State?",
        "tradingScale": 2, // 1 - 10
@@ -229,8 +229,8 @@ export const managers = [
          link: null, // manager array number within this array, or null to link back to all managers page
          image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 4034, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "favoritePlayer": 4144, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "FLEX", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Things can only get better",
        "tradingScale": 3, // 1 - 10
@@ -252,8 +252,8 @@ export const managers = [
          link: null, // manager array number within this array, or null to link back to all managers page
          image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 8155, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "favoritePlayer": 11604, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Average can make the playoffs",
        "tradingScale": 2, // 1 - 10
