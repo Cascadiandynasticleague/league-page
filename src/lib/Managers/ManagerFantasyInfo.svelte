@@ -218,7 +218,7 @@
                 <span class="tradingScale">{viewManager.tradingScale}</span>
             </div>
             <div class="infoAnswer">
-                {viewManager.tradingScale} out of 10
+                {viewManager.tradingScale}0% Likely
             </div>
         </div>
     {/if}
