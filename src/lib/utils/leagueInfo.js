@@ -35,7 +35,7 @@ export const managers = [
        "name": "Chris",
        "tookOver": 2014,
        "location": "Seattle", // (optional)
-       "bio": "Rebranded in 2025, the Homemade Traders became Gefrin Hoyin Gadgies. Chris is a member of the Old Firm and RotW clans. Ranked 3rd in the Post Starter Draft Ranks and 5th in the most likely to win Year 1. The most successful manager from the Cascadian League with four wins, including a three-win streak from 2015-2017. The only manager to make a trade in every season since they were introduced. Will that success carry over into the world of Dynasty?",
+       "bio": "Rebranded in 2025, the Homemade Traders became Gefrin Hoyin Gadgies. A member of the Old Firm and RotW clans. Ranked 3rd in the Post Starter Draft Ranks and 5th in the most likely to win Year 1. The most successful manager from the Cascadian League with four wins, including a three-win streak from 2015-2017. The only manager to make a trade in every season since they were introduced. Will that success carry over into the world of Dynasty?",
        "photo": "/managers/chris.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -51,8 +51,7 @@ export const managers = [
        "philosophy": "Trade Whisperer",
        "tradingScale": 10, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/CHRISLOGO.png" // Team logo and jersey designs
-       "logodescription": "Gefrin Hoyin Gadgies reflects the rich region of Northumbria from where their manager is from. Gefrin, pronounced yeavering, is old English literally meaning Hill of Goats, it was the centre of activity during the Northumbrian golden age and a major settlement going back to the Iron Age. While Hoyin' Gadgies is Northumbrian dialect for The Throwing Gentlemen. The team's logo represents a goat with Iron Age stone carvings and the Northumbrian Flag forming an H in the body of the goat while symbology of Northumbria from the 7th Century form the base of the G. The team's jersey features red and gold striping representing the Northumberland flag and a black and white houndstooth pattern that is inspired by Northumbrian Tartan. The oldest known tartan in the world with fragments being found woven from black and white goats hair dating back over 2,000 years. The Gefrin type font is taken from the Lindisfarne Gospels, an Insular manuscript created in Northumberia that rivals the Book of Kells of the period. The front of the home jersey has the PNWs version of goat mountain, Mount Stuart while the alternate jersey has four towering Douglas Fir Trees."  
+       "logo": "/managers/CHRISLOGO.png" // Team logo and jersey design
      },
      {
        "roster": 2,
