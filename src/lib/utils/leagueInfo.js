@@ -51,7 +51,7 @@ export const managers = [
        "philosophy": "Trade Whisperer",
        "tradingScale": 10, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/chris.jpg" // Team logo and jersey designs
+       "logo": "/managers/CHRISLOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 2,
