@@ -140,11 +140,6 @@
         text-indent: 0em;
     }
 
-    .logodescription {
-        margin: 2em 1.5em 2em;
-        text-indent: 0em;
-    }
-
     .philosophy {
         margin: 2em 1.5em 2em;
         text-align: center;
@@ -305,8 +300,6 @@
         <p class="bio">{@html viewManager.bio}</p>
 
 	<img class="managerLogo" src="{viewManager.logo}" alt="manager"/>
-
-        <p class="logodescription">{@html viewManager.logodescription}</p>
 
         {#if viewManager.philosophy}
             <!-- philosophy is an optional field -->
