@@ -35,7 +35,7 @@ export const managers = [
        "name": "Chris",
        "tookOver": 2014,
        "location": "Seattle", // (optional)
-       "bio": "Member of the Old Firm and RotW clans. Ranked 3rd in the Post Starter Draft Ranks and 5th in the most likely to win Year 1. The most successful manager from the Cascadian League with four wins, including a three-win streak from 2015-2017. The only manager to make a trade in every season since they were introduced. Will that success carry over into the world of Dynasty?",
+       "bio": "Rebranded in 2025, the Homemade Traders became Gefrin Hoyin Gadgies. A member of the Old Firm and RotW clans. Ranked 3rd in the Post Starter Draft Ranks and 5th in the most likely to win Year 1. The most successful manager from the Cascadian League with four wins, including a three-win streak from 2015-2017. The only manager to make a trade in every season since they were introduced. Will that success carry over into the world of Dynasty?",
        "photo": "/managers/chris.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -51,6 +51,7 @@ export const managers = [
        "philosophy": "Trade Whisperer",
        "tradingScale": 10, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "logo": "/managers/CHRISLOGO.png" // Team logo and jersey design
      },
      {
        "roster": 2,
@@ -74,6 +75,7 @@ export const managers = [
        "philosophy": "Don't Panic",
        "tradingScale": 5, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "logo": "/managers/SHAUNLOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 3,
@@ -97,6 +99,7 @@ export const managers = [
        "philosophy": "Just keep winning",
        "tradingScale": 7, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "logo": "/managers/MIKELOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 4,
@@ -112,7 +115,7 @@ export const managers = [
        "rival": {
          name: "Eddie", // Can be anything (usually your rival's name)
          link: 10, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/eddie.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/eddie.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 4866, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -120,6 +123,7 @@ export const managers = [
        "philosophy": "Auto drafting will be fine…",
        "tradingScale": 6, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "logo": "/managers/SHAWNLOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 5,
@@ -135,7 +139,7 @@ export const managers = [
        "rival": {
          name: "Chris", // Can be anything (usually your rival's name)
          link: 1, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/chris.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/chris.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 3198, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -143,6 +147,7 @@ export const managers = [
        "philosophy": "When do we get to see these touchdowns people keep talking about?",
        "tradingScale": 5, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "logo": "/managers/JAMESLOGO.png" // Team logo and jersey designs
      },  
      {
        "roster": 6,
@@ -166,6 +171,7 @@ export const managers = [
        "philosophy": "Where’s my spreadsheet?",
        "tradingScale": 5, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "logo": "/managers/ALECLOGO.png" // Team logo and jersey designs
      },  
      {
        "roster": 7,
@@ -181,7 +187,7 @@ export const managers = [
        "rival": {
          name: "Kawai", // Can be anything (usually your rival's name)
          link: 9, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/kawai.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/kawai.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 7569, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -189,6 +195,7 @@ export const managers = [
        "philosophy": "Defence is the best form of attack",
        "tradingScale": 6, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "logo": "/managers/RYANLOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 8,
@@ -212,6 +219,7 @@ export const managers = [
        "philosophy": "Did you play for The Ohio State?",
        "tradingScale": 1, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "logo": "/managers/JESSLOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 9,
@@ -227,7 +235,7 @@ export const managers = [
        "rival": {
          name: "Mike", // Can be anything (usually your rival's name)
          link: 3, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/mike.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/mike.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 4144, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -235,6 +243,7 @@ export const managers = [
        "philosophy": "Things can only get better",
        "tradingScale": 3, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "logo": "/managers/KAWAILOGO.png" // Team logo and jersey designs
      },  
      {
        "roster": 10,
@@ -250,7 +259,7 @@ export const managers = [
        "rival": {
          name: "Shawn", // Can be anything (usually your rival's name)
          link: 4, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/shawn.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/shawn.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 11604, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -258,6 +267,7 @@ export const managers = [
        "philosophy": "Average can make the playoffs",
        "tradingScale": 2, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "logo": "/managers/EDDIELOGO.png" // Team logo and jersey designs
      },  
     // {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)

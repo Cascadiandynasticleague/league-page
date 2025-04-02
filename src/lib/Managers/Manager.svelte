@@ -127,14 +127,22 @@
         height: 48px;
     }
 
+    .managerLogo {
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin: 5em auto 1em;
+    }
+
     .bio {
         margin: 2em 1.5em 2em;
-        text-indent: 4em;
+        text-indent: 0em;
     }
 
     .philosophy {
         margin: 2em 1.5em 2em;
-        text-indent: 4em;
+        text-align: center;
     }
 
     .loading {
@@ -288,6 +296,8 @@
                 {/if}
             </Group>
         </div>
+
+	<img class="managerLogo" src="{viewManager.logo}" alt="manager"/>
 
         <p class="bio">{@html viewManager.bio}</p>
 
