@@ -75,7 +75,7 @@ export const managers = [
        "philosophy": "Don't Panic",
        "tradingScale": 5, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/shaun.jpg" // Team logo and jersey designs
+       "logo": "/managers/SHAUNLOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 3,
@@ -99,7 +99,7 @@ export const managers = [
        "philosophy": "Just keep winning",
        "tradingScale": 7, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/mike.jpg" // Team logo and jersey designs
+       "logo": "/managers/MIKELOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 4,
@@ -123,7 +123,7 @@ export const managers = [
        "philosophy": "Auto drafting will be fine…",
        "tradingScale": 6, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/shawn.jpg" // Team logo and jersey designs
+       "logo": "/managers/SHAWNLOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 5,
@@ -147,7 +147,7 @@ export const managers = [
        "philosophy": "When do we get to see these touchdowns people keep talking about?",
        "tradingScale": 5, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/james.jpg" // Team logo and jersey designs
+       "logo": "/managers/JAMESLOGO.png" // Team logo and jersey designs
      },  
      {
        "roster": 6,
@@ -171,7 +171,7 @@ export const managers = [
        "philosophy": "Where’s my spreadsheet?",
        "tradingScale": 5, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/alec.jpg" // Team logo and jersey designs
+       "logo": "/managers/ALECLOGO.png" // Team logo and jersey designs
      },  
      {
        "roster": 7,
@@ -195,7 +195,7 @@ export const managers = [
        "philosophy": "Defence is the best form of attack",
        "tradingScale": 6, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/ryan.jpg" // Team logo and jersey designs
+       "logo": "/managers/RYANLOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 8,
@@ -219,7 +219,7 @@ export const managers = [
        "philosophy": "Did you play for The Ohio State?",
        "tradingScale": 1, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/jess.jpg" // Team logo and jersey designs
+       "logo": "/managers/JESSLOGO.png" // Team logo and jersey designs
      },
      {
        "roster": 9,
@@ -243,7 +243,7 @@ export const managers = [
        "philosophy": "Things can only get better",
        "tradingScale": 3, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/kawai.jpg" // Team logo and jersey designs
+       "logo": "/managers/KAWAILOGO.png" // Team logo and jersey designs
      },  
      {
        "roster": 10,
@@ -267,7 +267,7 @@ export const managers = [
        "philosophy": "Average can make the playoffs",
        "tradingScale": 2, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-       "logo": "/managers/eddie.jpg" // Team logo and jersey designs
+       "logo": "/managers/EDDIELOGO.png" // Team logo and jersey designs
      },  
     // {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
