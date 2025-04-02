@@ -297,9 +297,9 @@
             </Group>
         </div>
 
-        <p class="bio">{@html viewManager.bio}</p>
-
 	<img class="managerLogo" src="{viewManager.logo}" alt="manager"/>
+
+        <p class="bio">{@html viewManager.bio}</p>
 
         {#if viewManager.philosophy}
             <!-- philosophy is an optional field -->
