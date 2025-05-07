@@ -230,7 +230,7 @@
     <h3 bind:this={sixSix}>6.6 Taxi Team Player Eligibility</h3>
     <p>To be added to and remain on a Franchise’s Taxi Team a player must accrue no more than 2 seasons NFL experience.</p>
     <p>A player may not be demoted to the Taxi Team after the start of the regular season and once promoted can no longer be demoted back to the Taxi Team.</p>
-    <p>If a Taxi player is traded to a new Franchise, the eligibility rules will be reset for the time of the trade, i.e., if a current Taxi player is traded to a new Franchise but has NFL experience of less than 2 seasons when the trade completed, they will be eligible to be added to the new Franchise’s Taxi team.</p>
+    <p>If a Taxi player is traded to a new Franchise or added in Free Agency during the season, the eligibility rules will be reset for the time of the trade/addition, i.e., if a current Taxi player is traded to a new Franchise but has NFL experience of less than 2 seasons when the trade completed, they will be eligible to be added to the new Franchise’s Taxi team.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 Scoring</h2>
     
