@@ -31,6 +31,12 @@
         margin: 0 auto;
     }
 
+	.LeagueLogo {
+		width: 100%;
+        max-width: 500px;
+        height: auto;
+	}
+
     .leagueData {
         position: relative;
         z-index: 1;
@@ -140,6 +146,7 @@
     <div id="main">
         <div class="text">
             <h6>{leagueName}</h6>
+			<img class="LeagueLogo" src="/LeagueLogo.png" alt="League Logo" />
             <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
             {@html homepageText }
             <!-- Most recent Blog Post (if enabled) -->
