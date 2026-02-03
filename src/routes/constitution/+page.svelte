@@ -310,7 +310,7 @@
     <h2 class="sectionHeading" bind:this={twelve}>Section 12 General</h2>
 
     <p>Updated for season 2026</p>
-    <p>Rules are not open to interpretation. Any clarification must be confirmed by the commissioner. Any rules not explicitly noted in the consitition will follow the default rules assigned to the legue via the Sleeper App. href="https://support.sleeper.com/en/">SleeperSupport</a>.</p>
+    <p>Rules are not open to interpretation. Any clarification must be confirmed by the commissioner. Any rules not explicitly noted in the consitition will follow the default rules assigned to the legue via the Sleeper App. <a href="https://support.sleeper.com/en/">SleeperSupport</a>.</p>
     <p>Any amendments required to any rules during the season shall be voted on by all Franchises, amendments will pass with a simple majority unless otherwise stated.</p>
     <p>A vote of confidence in the commissioner may be had at any time with a simple majority required to continue.</p>
         
