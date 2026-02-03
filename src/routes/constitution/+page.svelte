@@ -166,7 +166,7 @@
   
     <h2 class="sectionHeading" bind:this={two}>Section 2 Entry Fee</h2>
     
-    <p>The league shall unanimously vote via poll the appropriate entry fee each Franchise will pay at the beginning of each new season. Season 1 League dues shall be {dues}$ per Franchise.</p>
+    <p>The league shall unanimously vote via poll the appropriate entry fee each Franchise will pay at the beginning of each new season. Season 1 League dues shall be ${dues} per Franchise.</p>
     <p>League dues will be payable to the Commissioner, or Commissioner appointed person by the beginning of the NFL’s Hall of Fame game each season.</p>
     <p>Any dues not received by the deadline will result in your team being frozen until paid.</p>
     
@@ -208,7 +208,6 @@
     </ul>
   
     <h3 bind:this={sixTwo}>6.2 Auto Subs</h3>
-    <p>Updated for season 2025</p>
     <p>Each Franchise shall have the option to nominate up to three auto subs per game week.</p>
     <p>If a starter is inactive for their game, a franchise may designate a substitute to be automatically placed in the starting lineup in their place. The Auto Sub may not play before the starter and the sub's position must be eligible for the starter's roster position. Each sub may only be matched to a maximum of one starter.</p>
 
@@ -265,7 +264,6 @@
     <p>The Rookie draft will be a Linear Draft consisting of four rounds.</p>
   
     <h3 bind:this={eightTwo}>8.2 Pick Order</h3>
-    <p>Updated for season 2025</p>
     <p>The Rookie Draft Pick order will be determined as follows: Picks 1 through 4 will be made of the four teams that did not make the previous season’s playoffs and will be assigned in reverse order of their theoretical maximum points for (max. PF) from the previous season. Pick 5 and 6 will be assigned to the 5th 6th playoff teams in reverse order of their regular season standings. Pick 7 and 8 will be assigned to the 3rd 4th place playoff teams in reverse order of their regular season standings. Pick 10 will be assigned to the winner of the Superb Owl with the runner up getting pick 9.</p>
     
     <h3 bind:this={eightThree}>8.3 Draft Schedule</h3>
@@ -310,7 +308,7 @@
     <h2 class="sectionHeading" bind:this={twelve}>Section 12 General</h2>
 
     <p>Updated for season 2026</p>
-    <p>Rules are not open to interpretation. Any clarification must be confirmed by the commissioner. Any rules not explicitly noted in the consitition will follow the default rules assigned to the legue via the Sleeper App. <a href="https://support.sleeper.com/en/">SleeperSupport</a>.</p>
+    <p>Rules are not open to interpretation. Any clarification must be confirmed by the commissioner. Any rules not explicitly noted in the constitution will follow the default rules assigned to the league via the Sleeper App. <a href="https://support.sleeper.com/en/">SleeperSupport</a>.</p>
     <p>Any amendments required to any rules during the season shall be voted on by all Franchises, amendments will pass with a simple majority unless otherwise stated.</p>
     <p>A vote of confidence in the commissioner may be had at any time with a simple majority required to continue.</p>
         
