@@ -94,10 +94,6 @@
     .clickable:hover {
         color: #00316b;
     }
-
-    p {
-        color: #777;
-    }
 </style>
 
 <div class="constitution">
@@ -188,10 +184,11 @@
         
     <h2 class="sectionHeading" bind:this={five}>Section 5 Playoffs</h2>
 
+    <p>Updated for season 2026.</p>
     <p>The playoffs run from week 15 through 17 of the NFL regular season.</p>
     <p>The playoffs will be made up of the top 6 Franchises, 1st and 2nd placed Franchises will receive a bye in week 15.</p>
-    <p>Playoffs will not be re-seeded between rounds. Franchises will be seeded based on the final league standings.</p>
-    <p>A consolation bracket will be held for all non-qualifying teams but will not impact standing order for the following season’s rookie draft.</p>
+    <p>Playoffs will be re-seeded between rounds. I.e. the number one seed will play the lowest ranked seed from the wildcard round in week two of the playoffs. Franchises will be seeded based on the final league standings.</p>
+    <p>A consolation bracket will be held for all non-qualifying teams with the winner awarded the Average Owl. The consolation bracket will not impact standing order for the following season’s rookie draft.</p>
 
     <h2 class="sectionHeading" bind:this={six}>Section 6 Team Rosters</h2>
     
@@ -219,18 +216,18 @@
     <p>Each Franchise shall have a bench in addition to their weekly starters, bench size will be 15, for a total of 25 players per Franchise. Except during the off-season, see Section 6.4 Injured Reserve Slot</p>
     
     <h3 bind:this={sixFour}>6.4 Injured Reserve Slot</h3>
-    <p>Updated for season 2025.</p>
+    <p>Updated for season 2026.</p>
     <p>Each Franchise shall have up to 3 IR slots for eligible players. Eligible players shall be on the NFL IR list, NA or Holdouts. Out or Doubtful players are not eligible.</p>
     <p>During the Off-Season, between the NFL Super Bowl and the beginning of the next regular season, the roster bench will increase by 3 from 15 to 18 spots in order to allow teams to move their IR players to the regular roster.</p>
-    <p>Roster Cut deadline day, where the roster bench spots will be restored to the regular 15 spots, will occur the same day and time as the NFL 53-man roster deadline.</p>
+    <p>Roster Cut deadline day, where the roster bench spots will be restored to the regular 15 spots and the three IR spots will be restored, will occur at 5pm PST on the last Friday before the regular season starts.</p>
 
     <h3 bind:this={sixFive}>6.5 Taxi Team</h3>
-    <p>Beginning in Season 2025, prior to the start of the Rookie Draft, each Franchise will receive four taxi slots</p>
+    <p>Each Franchise will be allotted four taxi slots</p>
 
     <h3 bind:this={sixSix}>6.6 Taxi Team Player Eligibility</h3>
+    <p>Updated for season 2026.</p>
     <p>To be added to and remain on a Franchise’s Taxi Team a player must accrue no more than 2 seasons NFL experience.</p>
-    <p>A player may not be demoted to the Taxi Team after the start of the regular season and once promoted can no longer be demoted back to the Taxi Team.</p>
-    <p>If a Taxi player is traded to a new Franchise or added in Free Agency during the season, the eligibility rules will be reset for the time of the trade/addition, i.e., if a current Taxi player is traded to a new Franchise but has NFL experience of less than 2 seasons when the trade completed, they will be eligible to be added to the new Franchise’s Taxi team.</p>
+    <p>A player may be added to or removed from Taxi Team at any point during pre-season. Once the regular season begins the Taxi Team will be locked and no new players may be added to it. An existing Taxi Team player may be promoted from the Taxi Team at any point during the season but will not be eligible to be demoted back to the Taxi Team once the regular season has begun.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 Scoring</h2>
     
@@ -286,7 +283,6 @@
 
     <h2 class="sectionHeading" bind:this={nine}>Section 9 Waivers</h2>
 
-    <p>Updated for season 2025</p>
     <p>Waivers will start immediately following the renewal of the season and will run continuously throughout the entire year until the end of the regular season, except where waivers will be paused for the duration of the rookie draft.</p>
     <p>Waivers will be processed based on current league standing, i.e. last place will receive first priority. Waiver priority will reset with the beginning of each game week. Except during the offseason where priority will be rolling until the completion of week 1 of the season.</p>
     <p>Waivers will process once per week during the offseason, 9am PST on Saturday, and twice per week at the commencement of week 1 of the regular season, 9am PST on Wednesday and 9am PST on Saturday.</p>
@@ -294,18 +290,18 @@
 
     <h2 class="sectionHeading" bind:this={ten}>Section 10 Trades</h2>
 
-    <p>Trades will be allowed following the league renewal and will run continuously throughout the year until week 13 of the regular season.</p>
-    <p>Trades may consist of any combination of player/players, rookie draft picks up to three years in advance.</p>
+    <p>Updated for season 2026.</p>
+    <p>Trades will be allowed following the league renewal and will run continuously throughout the year until the end of the final NFL game of week 13 of the regular season.</p>
+    <p>Trades may consist of any combination of player, players, and/or rookie draft picks up to three years in advance.</p>
     <p>Trades may involve any number of Franchises.</p>
-    <p>All trades must comply with the current league roster restrictions upon completion.</p>
-    <p>Trades will process immediately; however, a trade protest may be lodged with the league commissioner by any Franchise in the league, including the trading teams, within 24 hours of the trade processing.</p>
+    <p>All trades must comply with the current league roster restrictions, you will be given a 24 hour window from completion of your trade to make any roster changes required to meet the current roster restrictions.</p>
+    <p>Trades will process immediately; however, a trade protest may be lodged with the league commissioner by any none trading Franchise in the league.</p>
     <p>If a trade is protested, the league commissioner will gather evidence from the trading teams to be reviewed by the league within 24 hours. When all evidence is received, it will be presented to the league and a vote will be held to confirm the trade.</p>
-    <p>A trade will be successfully protested if the number of vetoing teams is equal to 2/3rds the league size -2, rounded down.</p>
+    <p>A trade will be successfully protested if the number of vetoing teams is equal to 2/3rds the league size minus the number of teams involved in the trade rounded down. The parties involved in said trade cannot vote. I.e. a two team trade requires five of the remaining team managers to veto it.</p>
     <p>If a trade is vetoed, the Franchises involved in the trade will revert to their starting rosters before the trade occurred and any points earned by players involved in the trade will be removed from their weekly points total.</p>
 
     <h2 class="sectionHeading" bind:this={eleven}>Section 11 League Renewal</h2>
 
-    <p>Updated for season 2025</p>
     <p>The league will automatically renew 24 hours after completion of that season’s NFL Super Bowl.</p>
     <p>The period between the completion of the Superb Owl and the NFL Super Bowl will allow managers to propose any rule changes and amendments for the coming season.</p>
     <p>All Rule proposals shall be voted on via poll with a simple majority required to pass unless it is with regards to League Dues or manager changes which require unanimous approval.</p>
@@ -313,8 +309,8 @@
 
     <h2 class="sectionHeading" bind:this={twelve}>Section 12 General</h2>
 
-    <p>Updated for season 2025</p>
-    <p>Rules are not open to interpretation. Any clarification must be confirmed by the commissioner.</p>
+    <p>Updated for season 2026</p>
+    <p>Rules are not open to interpretation. Any clarification must be confirmed by the commissioner. Any rules not explicitly noted in the consitition will follow the default rules assigned to the legue via the Sleeper App. href="https://support.sleeper.com/en/">SleeperSupport</a>.</p>
     <p>Any amendments required to any rules during the season shall be voted on by all Franchises, amendments will pass with a simple majority unless otherwise stated.</p>
     <p>A vote of confidence in the commissioner may be had at any time with a simple majority required to continue.</p>
         
