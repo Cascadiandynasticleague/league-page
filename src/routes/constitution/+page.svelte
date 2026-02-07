@@ -166,14 +166,23 @@
   
     <h2 class="sectionHeading" bind:this={two}>Section 2 Entry Fee</h2>
     
-    <p>The league shall unanimously vote via poll the appropriate entry fee each Franchise will pay at the beginning of each new season. Season 1 League dues shall be ${dues} per Franchise.</p>
+    <p>Updated for season 2026.</p>
+    <p>The League dues shall be ${dues} per Franchise.</p>
     <p>League dues will be payable to the Commissioner, or Commissioner appointed person by the beginning of the NFL’s Hall of Fame game each season.</p>
     <p>Any dues not received by the deadline will result in your team being frozen until paid.</p>
-    
+    <p>The league shall review the entry fee and seasonal pay-out biannually in odd-numbered seasons. This review will occur during the rule change period between completion of the Superb Owl and the NFL Super Bowl.</p>
+    <p>The biannual review of the entry fee and seasonal pay-out will be a three-step process in recognition that the pay-out system impacts what entry fee League members are willing pay:</p>
+    <p> 1 Vote on a conditional entry fee increase. This step is to determine the highest entry fee that has support from all League members.</p>
+    <p> 2 Vote on proposed pay-out systems using ranked choice voting to determine preferred pay-out.</p>
+    <p> 3 Final vote on the conditionally approved entry fee increase and preferred pay-out system in tandem. This vote must be unanimous.</p>
+    <p>The result of Step 1 may be the current entry fee. In that case, the League will still proceed to Step 2 to review the payout system.</p>
+    <p>Prior to Step 2, the Commissioner or Commissioner appointed person will solicit proposed pay-out systems from League members.</p>    
+
     <h2 class="sectionHeading" bind:this={three}>Section 3 Seasonal Pay-out</h2>
 
-    <p>The winner of the Playoff Championship game, aka. The Superb Owl will be awarded 75% of the total entry fee collected for that season.</p>
-    <p>The regular season winner will receive the remaining 25% of the total entry fee collected for that season.</p>
+    <p>Updated for season 2026.</p>
+    <p>Prize money will be distributed as a % of the total entry fee collected for that season as follows:</p>
+    <p>Superb Owl winners: 50%, 2nd place finisher: 20%, 3rd place finisher: 10%, Regular season winner: 20%</p>
     <p>Pay-out will be sent via requested means within 7 days of the completion of the Superb Owl.</p>
 
     <h2 class="sectionHeading" bind:this={four}>Section 4 League Schedule</h2>
