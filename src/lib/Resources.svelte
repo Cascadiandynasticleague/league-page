@@ -13,14 +13,14 @@ import { dynasty } from './utils/helper';
         },
         {
             name: "Fantasy Genius League Home",
-            url: "https://fantasygenius.io/league/1180097360531722240/home",
+            url: "https://fantasygenius.io/league/1326078652651155456/home",
             icon: "insights",
             premium: false,
             separator: true,
         },
         {
             name: "Keep Trade Cut",
-            url: "https://keeptradecut.com/dynasty/power-rankings/league-overview?leagueId=1180097360531722240&platform=2",
+            url: "https://keeptradecut.com/dynasty/power-rankings/league-overview?leagueId=1326078652651155456&platform=2",
             icon: "insights",
             premium: false,
             separator: true,
