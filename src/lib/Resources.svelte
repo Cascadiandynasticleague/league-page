@@ -43,7 +43,7 @@ import { dynasty } from './utils/helper';
         },
         {
             name: "FantasyCalc Trade Calculator",
-            url: "https://www.fantasycalc.com/trade-calculator",
+            url: "https://www.fantasycalc.com/league/dashboard?leagueId=1326078652651155456&site=Sleeper",
             icon: "calculate",
             premium: false,
             separator: false,
