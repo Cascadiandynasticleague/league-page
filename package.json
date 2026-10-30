@@ -39,19 +39,19 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=v20.0.0",
+    "node": ">=v26.0.0",
     "npm": ">=6.0.0"
   },
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "npm run build:themes && vite build",
     "build-docker": "DOCKER_BUILD=true vite build --verbose",
     "docker-build": "docker build . -t $USER/league-page:latest",
     "docker-run": "npm run docker-build && docker run -p 3000:3000 $USER/league-page:latest",
     "preview": "vite preview",
-    "prepare": "npm run smui-theme-light && npm run smui-theme-dark",
-    "smui-theme-light": "smui-theme compile static/smui.css -i src/theme",
-    "smui-theme-dark": "smui-theme compile static/smui-dark.css -i src/theme/dark",
+    "build:themes": "npm run smui-theme-light && npm run smui-theme-dark",
+    "smui-theme-light": "sass --load-path=node_modules src/theme/_smui-theme.scss static/smui.css",
+    "smui-theme-dark": "sass --load-path=node_modules src/theme/dark/_smui-theme.scss static/smui-dark.css",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. ."
   },
@@ -85,6 +85,7 @@
     "eslint-plugin-svelte": "^2.46.1",
     "prettier": "^3.4.2",
     "prettier-plugin-svelte": "^3.3.3",
+    "sass": "^1.70.0",
     "smui-theme": "^8.0.0-beta.3",
     "svelte": "^5.19.2"
   }
