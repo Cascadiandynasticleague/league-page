@@ -39,19 +39,19 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=v24.0.0",
+    "node": ">=v26.x",
     "npm": ">=6.0.0"
   },
   "scripts": {
     "dev": "vite dev",
     "build": "npm run build:themes && vite build",
+    "build:themes": "npm run smui-theme-light && npm run smui-theme-dark",
+    "smui-theme-light": "smui-theme compile static/smui.css -i src/theme",
+    "smui-theme-dark": "smui-theme compile static/smui-dark.css -i src/theme/dark"
     "build-docker": "DOCKER_BUILD=true vite build --verbose",
     "docker-build": "docker build . -t $USER/league-page:latest",
     "docker-run": "npm run docker-build && docker run -p 3000:3000 $USER/league-page:latest",
     "preview": "vite preview",
-    "build:themes": "npm run smui-theme-light && npm run smui-theme-dark",
-    "smui-theme-light": "npx --package=smui-theme smui-theme compile static/smui.css -i src/theme",
-    "smui-theme-dark": "npx --package=smui-theme smui-theme compile static/smui-dark.css -i src/theme/dark",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. ."
   },
