@@ -39,7 +39,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=v26.x",
+    "node": "24.x",
     "npm": ">=6.0.0"
   },
   "scripts": {
